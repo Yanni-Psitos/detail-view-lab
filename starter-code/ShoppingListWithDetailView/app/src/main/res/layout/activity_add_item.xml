@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ly.generalassemb.drewmahrt.shoppinglistwithdetailview.AddItemActivity">
+
+    <EditText
+        android:id = "@+id/addItemNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint = "Enter Item Name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id = "@+id/addItemDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/addItemNameEditText"
+        android:hint = "Enter Item Name"/>
+    <EditText
+        android:id = "@+id/addItemPriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/addItemDescriptionEditText"
+        android:hint = "Enter Item Name"/>
+    <EditText
+        android:id = "@+id/addItemTypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/addItemPriceEditText"
+        android:hint = "Enter Item Name"/>
+    <EditText
+        android:id = "@+id/addItemExtraEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/addItemTypeEditText"
+        android:hint = "Enter Item Name"/>
+    <Button
+        android:id = "@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Add My Item"
+        android:layout_above="@+id/cancelButton"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id = "@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text = "Cancel"/>
+
+</RelativeLayout>
